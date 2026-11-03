@@ -46,7 +46,7 @@ class Triangle:
             return None
 
         if self.a == self.b == self.c:
-            return TriangleType.ISOSCELES  # 暂时写错测试
+            return TriangleType.EQUILATERAL
         elif self.a == self.b or self.b == self.c or self.a == self.c:
             return TriangleType.ISOSCELES
         else:
